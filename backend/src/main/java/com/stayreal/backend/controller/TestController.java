@@ -1,11 +1,11 @@
-package com.stayreal.backend;
+package com.stayreal.backend.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class BackendController {
+public class TestController {
 
     @GetMapping("/test")
     public String test() {
